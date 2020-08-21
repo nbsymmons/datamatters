@@ -244,8 +244,8 @@ a.white {
 .form-control-select {
 	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
 	width: 100%;
-	padding-top: 1.0625rem;
-	padding-bottom: 0.0625rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
 	padding-left: 1.25rem;
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
@@ -266,7 +266,7 @@ a.white {
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
 	.form-control-input {
 		padding-top: 1.25rem;
-		padding-bottom: 0.75rem;
+		padding-bottom: 1.75rem;
 		line-height: 1.75rem;
 	}
 
@@ -814,6 +814,21 @@ input[type='checkbox'] {
 /***************************/
 /*     06. Description     */
 /***************************/
+
+.description-subtitle{
+	margin: 0;
+	color: #99D429;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.c-image{
+	max-width: 16rem;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-left: auto;
+}
+
 .cards-1 {
 	padding-top: 3.25rem;
 	padding-bottom: 3rem;
@@ -1634,11 +1649,6 @@ a:hover.back-to-top {
 	.form .text-container {
 		padding: 4rem 2.5rem 3rem 2.5rem;
 	}
-
-	.form form {
-		margin-right: 4rem;
-		margin-left: 4rem;
-	}
 	/* end of newsletter */
 
 
@@ -1785,8 +1795,8 @@ a:hover.back-to-top {
 		display: inline-block;
 		width: 17rem;
 		max-width: 100%;
-		margin-right: 1rem;
-		margin-left: 1rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
 		vertical-align: top;
 	}
 
@@ -1916,11 +1926,6 @@ a:hover.back-to-top {
 		margin-right: 7rem;
 		margin-left: 7rem;
 	}
-
-	.form form {
-		margin-right: 9rem;
-		margin-left: 9rem;
-	}
 	/* end of newsletter */
 
 
@@ -1986,8 +1991,8 @@ a:hover.back-to-top {
 	/* Description */
 	.cards-1 .card {
 		width: 18.875rem;
-		margin-right: 2rem;
-		margin-left: 2rem;
+		padding-right: 2rem;
+		padding-left: 2rem;
 	}
 
 	.cards-1 .card-image {
@@ -2063,11 +2068,6 @@ a:hover.back-to-top {
 		margin-right: 12rem;
 		margin-left: 12rem;
 	}
-
-	.form form {
-		margin-right: 15rem;
-		margin-left: 15rem;
-	}
 	/* end of newsletter */
 
 
@@ -2104,3 +2104,4 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+

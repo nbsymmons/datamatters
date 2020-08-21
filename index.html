@@ -112,12 +112,32 @@
 
     <!-- Description -->
     <div class="cards-1">
+        <p class="description-subtitle">Expert, friendly advice for all your insurance needs</p>
+        <h2 class="h2-heading">Welcome to Coversure, the home<br />of great value, high quality<br />insurance.</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 card">
+                    <img src="/images/start-a-quote.png" alt="" class="c-image">
+                    <h3>Start A Quote</h3>
+                    <p>Looking for a quick quote? Just complete our form and one of the team will get back to you as soon as possible.</p>
+                </div>
+                <div class="col-md-4 card">
+                    <img src="/images/lcoal-brokers.png" alt="" class="c-image">
+                    <h3>Local Brokers</h3>
+                    <p>At Coversure we like to keep things simple, your friendly local office team will start by discussing your needs.</p>
+                </div>
+                <div class="col-md-4 card">
+                    <img src="/images/live-chat.png" alt="" class="c-image">
+                    <h3>Live Chat</h3>
+                    <p>Chat live to one of our experienced team of professionals and let them give you the help you need.</p>
+                </div>
+            </div>
+        </div>
     </div>
-        
     <!-- end of description -->
 
 
-        <!-- Details 2 -->
+    <!-- Details 2 -->
     <div id="details" class="basic-1" style="background-color: #f3f7fd;">
         <div class="container">
             <div class="row">
@@ -282,22 +302,56 @@
                         <h2>Quick Quote</h2>
 
                         <!-- Newsletter Form -->
-                        <form id="newsletterForm" data-toggle="validator" data-focus="false">
-                            <div class="form-group">
-                                <input type="email" class="form-control-input" id="nemail" required>
-                                <label class="label-control" for="nemail">Email</label>
+                        <form id="newsletterForm" data-toggle="validator" data-focus="false" class="container">
+                            <div class="row">
+
+                            
+                            <div class="col-md-6 form-group">
+                                <label for="nname">Your Name or Business Name</label>
+                                <input type="text" class="form-control-input" id="nname" required>
+                                
                                 <div class="help-block with-errors"></div>
                             </div>
-                            <div class="form-group checkbox">
+                            <div class="col-md-6 form-group">
+                                <label  for="ntel">Your Telephone Number</label>
+                                <input type="tel" class="form-control-input" id="ntel" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="npostcode">Your Postcode</label>
+                                <input type="text" class="form-control-input" id="npostcode" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label  for="nemail">Your Email</label>
+                                <input type="email" class="form-control-input" id="nemail" required>
+                                
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="nemail">Insurance Type</label>
+                                <input type="email" class="form-control-input" id="nemail" required>
+                                
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            
+                            <div class="col-md-6 form-group">
+                                <label  for="nemail">Contact Me</label>
+                                <input type="email" class="form-control-input" id="nemail" required>
+                                
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-md-12 form-group checkbox">
                                 <input type="checkbox" id="nterms" value="Agreed-to-Terms" required>Yes, I would like to receive insurance advice, news and offers from Coversure Insurance Services<a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
                                 <div class="help-block with-errors"></div>
                             </div>
-                            <div class="form-group">
+                            <div class="col-md-12 form-group">
                                 <button type="submit" class="form-control-submit-button">SUBSCRIBE</button>
                             </div>
                             <div class="form-message">
                                 <div id="nmsgSubmit" class="h3 text-center hidden"></div>
                             </div>
+                        </div>
                         </form>
                         <!-- end of newsletter form -->
 
